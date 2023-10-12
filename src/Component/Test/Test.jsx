@@ -10,7 +10,7 @@ const Test = () => {
     }
     return (
         <div className="course">
-            <motion.div className="box" variants={variants} transition={{ duration: 2 }} animate={open ? "visible" : "hidden"}>
+            <motion.div className="box" variants={variants} transition={{ duration: 2}} animate={open ? "visible" : "hidden"}>
             </motion.div>
             <button className="text-white text-xl" onClick={() => setOpen(prev => !prev)}>click here</button>
         </div>
