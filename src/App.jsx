@@ -1,5 +1,13 @@
+import "./app.scss"
 const App = () => {
-  return <div>Hello World</div>;
+  return <div className="app">
+    <section><a href="/hero">Helow world to hero</a></section>
+    <section>paralax</section>
+    <section>Service</section>
+    <section>Paralax</section>
+    <section>Portfulio</section>
+    <section>Contact</section>
+  </div>;
 };
 
 export default App;
