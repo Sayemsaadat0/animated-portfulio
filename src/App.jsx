@@ -1,7 +1,8 @@
+import Navbar from "./Component/Shared/Navbar/Navbar";
 import "./app.scss"
 const App = () => {
   return <div className="app">
-    <section><a href="/hero">Helow world to hero</a></section>
+    <section><Navbar></Navbar></section>
     <section>paralax</section>
     <section>Service</section>
     <section>Paralax</section>

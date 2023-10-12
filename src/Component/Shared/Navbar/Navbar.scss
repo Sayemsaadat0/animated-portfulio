@@ -1,0 +1,27 @@
+.navbar{
+height: 100px ;
+
+.wrapper{
+    max-width: 1366px;
+    margin: auto; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+
+    .logoText{
+        background-image: url('https://i.pinimg.com/736x/49/be/cb/49becb8513b3c3573ece1573f2375ee3.jpg');
+        background-size: cover;
+        background-position: center;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+    .social{
+    display: flex; 
+    align-items: center; 
+    gap: 25px;
+    }
+}
+
+}

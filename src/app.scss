@@ -12,6 +12,10 @@ body{
     background-color: #0c0c1d;
     color: white;
 }
+::selection {
+    color: white;
+    background-color: #91d8f9;
+  }
 a{
     text-decoration: none;
     color: inherit;
